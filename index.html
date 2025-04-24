@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richard Tawiah</title>
+    <link rel="stylesheet" href="./static/styles/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Richard</a>
+        </nav>
+    </header>
+ 
+    <main>
+        <div class="container">
+            <div class="content">
+                <div class="image">
+                    <img src="./static/images/image2.JPG" alt="MC Eye Kontact">
+                </div>
+                
+                <div class="names">
+                     <h2>&nbsp;Richard Tawiah</h2>
+                     <h4>WEB DEVELOPER</h4>
+                </div>
+
+                <div class="contact">
+                    <a href="mailto:tawiahrichard02@gmail.com">tawiahrichard02@gmail.com</a>
+                    <a href="#">Mumford, Ghana</a>
+                    <a href="tel:+233534516999">+233-534-516-999</a>
+                </div>
+
+                <div class="sec">
+                    <div class="grp about">
+                        <h3>About me</h3>
+                        <br>
+                        <p>I'm <strong>Richard Tawiah</strong>, a web developer, graphic designer, ui and ux designer from Mumford in Ghana</p>
+                        <p>I love programming, singing and mobile photography and videography.</p>
+                    
+                        <br>
+                        <br>
+                        <h3>Education</h3>
+                        <br>
+                        <ul type="square">
+                            <li>Ebenezer Methodist Preparatory School</li>
+                            <li>Komenda Senior High Technical School</li>
+                        </ul>
+                    
+                    </div>
+        
+                    <div class="grp links">
+                        <h3>Skills</h3>
+                        <br>
+                       <ul class="skills" type="square">
+                        <li>Web Developer</li>
+                        <li>Graphic Designer</li>
+                        <li>UI/UX Designer</li>
+                        <li>Artiste</li>
+                       </ul>
+                    </div>
+                <div>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-form">
+            <h2>Message Me</h2>
+            <form action="https://formsubmit.co/tawiahrichard02@email.com" method="POST" />
+                <input type="text" name="name" required id="text" placeholder="John Doe">
+                <input type="email" name="email" required id="text" placeholder="johndoe@gmail.com">
+                <textarea name="msg" id="mgs" required placeholder="Your message"></textarea>
+                <input type="submit" name="submit" id="submit" value="Send Message">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p style="color: rgb(231, 228, 228);">&copy;<span id="year" style="color: rgb(231, 228, 228);"></span></p>
+        <p>All right reserved</p>
+    </footer>
+
+    <script>
+       document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
